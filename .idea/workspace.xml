@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1660c585-286c-41ce-ad33-cae553fee97e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C01_Annotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C02_Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C03_DependsOnMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C04_DependsOnMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C05_Enabled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C06_Timeout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C07_Description.java" afterDir="false" />
+    <list default="true" id="1660c585-286c-41ce-ad33-cae553fee97e" name="Changes" comment="TestNG">
+      <change afterPath="$PROJECT_DIR$/01_RunningClassC11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_MultipleRunningClass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_RunningGroups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C09_HardSoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C10_SoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C11_XMLFileHierarchy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C12_XMLFilesGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +40,68 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/03_RunningGroups.xml">
+    <configuration name="C12_XMLFilesGroups.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TR3_TestNGLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.Test" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.Test.C12_XMLFilesGroups" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/01_RunningClassC11.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TR3_TestNGLessons" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/01_RunningClassC11.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/02_MultipleRunningClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TR3_TestNGLessons" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/02_MultipleRunningClass.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/03_RunningGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TR3_TestNGLessons" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/03_RunningGroups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/03_RunningGroups.xml" />
+        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/02_MultipleRunningClass.xml" />
+        <item itemvalue="TestNG.C12_XMLFilesGroups.test2" />
+        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/01_RunningClassC11.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +111,18 @@
       <option name="presentableId" value="Default" />
       <updated>1698948936186</updated>
     </task>
+    <task id="LOCAL-00001" summary="TestNG">
+      <created>1698957589679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698957589679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TestNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG" />
   </component>
 </project>

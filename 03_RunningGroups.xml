@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="c11grupTestRun">
+        <groups>
+            <run>
+                <include name="smoke">
+                    <exclude name="regression"></exclude>
+                </include>
+            </run>
+        </groups>
+        <classes>
+    <class name="Clarusway.Test.C12_XMLFilesGroups"></class>
+        </classes>
+    </test>
+</suite>
