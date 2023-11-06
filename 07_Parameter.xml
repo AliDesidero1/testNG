@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="parameterTest">
+        <parameter name="isim" value="Ali"></parameter>
+        <parameter name="soyisim" value="Tester"></parameter>
+        <parameter name="yaş" value="23"></parameter>
+        <classes>
+            <class name="Clarusway.Test.C13_UsingParameters">
+                <!--<methods>
+                    <include name="parameterizedTest"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

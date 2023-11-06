@@ -10,7 +10,7 @@
             </run>
         </groups>
         <classes>
-    <class name="Clarusway.Test.C12_XMLFilesGroups"></class>
+            <class name="Clarusway.Test.C12_XMLFilesGroups"></class>
         </classes>
     </test>
 </suite>

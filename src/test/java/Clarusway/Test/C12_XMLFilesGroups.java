@@ -8,7 +8,7 @@ public class C12_XMLFilesGroups {
         System.out.println("test1 smoke çalıştı");
     }
 
-    @Test(groups = {"smoke"})
+    @Test(groups = {"smoke,sanity"})
     void test2() {
         System.out.println("test2 smoke çalıştı");
     }
@@ -23,7 +23,7 @@ public class C12_XMLFilesGroups {
         System.out.println("test4 smoke, regression çalıştı");
     }
 
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression,sanity"})
     void test5() {
         System.out.println("test5 regression çalıştı");
     }

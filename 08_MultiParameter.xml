@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="multiParameterTest">
+        <parameter name="aranacakKelime" value="Java"></parameter>
+        <classes>
+            <class name="Clarusway.Test.C14_XMLFile_ParameterTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="multiParameterTest2">
+        <parameter name="aranacakKelime" value="Selenium"></parameter>
+        <classes>
+            <class name="Clarusway.Test.C14_XMLFile_ParameterTest"></class>
+        </classes>
+    </test>
+</suite>

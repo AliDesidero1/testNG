@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="3">
+    <test name="grupTestRun1">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Clarusway.Test.C12_XMLFilesGroups"></class>
+        </classes>
+    </test>
+    <test name="grupTestRun2">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Clarusway.Test.C12_XMLFilesGroups"></class>
+        </classes>
+    </test>
+    <test name="grupTestRun3">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Clarusway.Test.C12_XMLFilesGroups"></class>
+        </classes>
+    </test>
+</suite>
