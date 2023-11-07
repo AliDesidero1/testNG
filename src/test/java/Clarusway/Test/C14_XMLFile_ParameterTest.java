@@ -28,11 +28,13 @@ public class C14_XMLFile_ParameterTest extends TestBase {
 
     @Test
     @Parameters("aranacakKelime")
-    public void test2(String keyword){
+    public void test2(String keyword) {
         driver.get("https://www.amazon.com");
-        WebElement searchArea = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
-        searchArea.sendKeys(keyword+ Keys.ENTER);
-        WebElement result = driver.findElement(By.xpath("//span[@class='a-color-state a-text-bold']"));
+        WebElement searchArea = driver.findElement
+                (By.xpath("//input[@id='twotabsearchtextbox']"));
+        searchArea.sendKeys(keyword + Keys.ENTER);
+        WebElement result = driver.findElement
+                (By.xpath("//span[@class='a-color-state a-text-bold']"));
         Assert.assertTrue(result.getText().toLowerCase().contains(keyword.toLowerCase()));
     }
 }

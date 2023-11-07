@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1660c585-286c-41ce-ad33-cae553fee97e" name="Changes" comment="TestNG">
-      <change afterPath="$PROJECT_DIR$/04_RunningMultipleGroups.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_GroupsExcludeMethod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C13_UsingParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C14_XMLFile_ParameterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C15_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_ParalelExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Homework/Homework_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Homework/Homework_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C16_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C17_DataProviderFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C18_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C19_DataProviderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C20_CrossBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C21_ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C22_ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Utilities/ParameterBrowserTestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_RunningGroups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_RunningGroups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C12_XMLFilesGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C12_XMLFilesGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C14_XMLFile_ParameterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/Test/C14_XMLFile_ParameterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +40,26 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/alig9/IdeaProjects/TR3_TestNGLessons",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alig9/IdeaProjects/TR3_TestNGLessons&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alig9\IdeaProjects\TR3_TestNGLessons" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Clarusway.Test" />
+      <recent name="Clarusway.Utilities" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C15_DataProvider.test3">
-    <configuration name="C14_XMLFile_ParameterTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/12_ParalelExecution.xml">
+    <configuration name="C18_DataProvider.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TR3_TestNGLessons" />
       <extension name="coverage">
         <pattern>
@@ -60,7 +68,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Clarusway.Test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.Test.C14_XMLFile_ParameterTest" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.Test.C18_DataProvider" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -69,63 +77,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C15_DataProvider.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/09_CrossBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TR3_TestNGLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clarusway.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Clarusway.Test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.Test.C15_DataProvider" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/09_CrossBrowserTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C15_DataProvider.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/10_ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TR3_TestNGLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clarusway.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Clarusway.Test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.Test.C15_DataProvider" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/10_ParallelExecution.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C15_DataProvider.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/11_ParalelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TR3_TestNGLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clarusway.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Clarusway.Test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.Test.C15_DataProvider" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/11_ParalelExecution.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/08_MultiParameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/12_ParalelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TR3_TestNGLessons" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/08_MultiParameter.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/12_ParalelExecution.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -135,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C15_DataProvider.test3" />
-        <item itemvalue="TestNG.C15_DataProvider.test2" />
-        <item itemvalue="TestNG.C15_DataProvider.test1" />
-        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/08_MultiParameter.xml" />
-        <item itemvalue="TestNG.C14_XMLFile_ParameterTest.test" />
+        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/12_ParalelExecution.xml" />
+        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/11_ParalelExecution.xml" />
+        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/10_ParallelExecution.xml" />
+        <item itemvalue="TestNG.C:/Users/alig9/IdeaProjects/TR3_TestNGLessons/09_CrossBrowserTest.xml" />
+        <item itemvalue="TestNG.C18_DataProvider.test" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699045155061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TestNG">
+      <created>1699303753632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699303753632</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
